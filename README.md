@@ -15,7 +15,7 @@ uvicorn api:app --host 0.0.0.0 --port 8000
 
 ### Extract Stream
 ```
-GET /extract?url=https://hanime.tv/videos/hentai/SLUG
+GET /hanime-api?url=https://hanime.tv/videos/hentai/SLUG
 ```
 
 ### Response
