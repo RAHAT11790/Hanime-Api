@@ -134,7 +134,7 @@ EXPOSE 7860
 # Universal start command (works everywhere)
 CMD ["sh", "-c", "uvicorn api:app --host 0.0.0.0 --port ${PORT:-7860}"]
 ```
-4. Access at `https://huggingface.co/spaces/USERNAME/SPACE`
+4. Access at `https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME`
 
 </details>
 
