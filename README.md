@@ -16,7 +16,7 @@ uvicorn api:app --host 0.0.0.0 --port 8000
 
 ### Extract Stream
 ```
-GET /extract?url=https://hanime.tv/videos/hentai/SLUG
+GET /hanime-api?url=https://hanime.tv/videos/hentai/SLUG
 ```
 
 ### Response
@@ -37,7 +37,7 @@ GET /extract?url=https://hanime.tv/videos/hentai/SLUG
 ## 🚀 Deploy
 
 <details>
-<summary>▶️ Railway</summary>
+<summary>Railway</summary>
 
 1. Push code to GitHub
 2. Go to [railway.app](https://railway.app) → New Project → Deploy from GitHub
@@ -50,7 +50,7 @@ web: uvicorn api:app --host 0.0.0.0 --port $PORT
 </details>
 
 <details>
-<summary>▶️ Render</summary>
+<summary>Render</summary>
 
 1. Push code to GitHub
 2. Go to [render.com](https://render.com) → New Web Service → Connect GitHub
@@ -67,7 +67,7 @@ uvicorn api:app --host 0.0.0.0 --port $PORT
 </details>
 
 <details>
-<summary>▶️ Koyeb</summary>
+<summary>Koyeb</summary>
 
 1. Push code to GitHub
 2. Go to [koyeb.com](https://koyeb.com) → Create App → GitHub
@@ -86,7 +86,7 @@ CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
 </details>
 
 <details>
-<summary>▶️ Hugging Face Spaces</summary>
+<summary>Hugging Face Spaces</summary>
 
 1. Go to [huggingface.co/spaces](https://huggingface.co/spaces) → New Space
 2. Select **Docker** as SDK
